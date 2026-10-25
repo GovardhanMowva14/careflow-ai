@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-care-teal-50: #ecfdf9;
+  --color-care-teal-100: #c9f7ec;
+  --color-care-teal-500: #0d9488;
+  --color-care-teal-600: #0f766e;
+  --color-care-teal-700: #115e59;
+  --color-care-slate-800: #1e293b;
+  --color-care-slate-900: #0f172a;
+  --font-sans: "Segoe UI", system-ui, -apple-system, sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--font-sans);
+  background: linear-gradient(180deg, #f8fafc 0%, #ecfdf9 100%);
+  color: var(--color-care-slate-800);
+}
